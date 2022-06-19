@@ -1,0 +1,13 @@
+Werkzeug
+MarkupSafe
+itsdangerous
+click
+Jinja2
+flask
+gunicorn
+minecraft_launcher_lib
+requests
+charset-normalizer
+idna
+urllib3
+certifi
