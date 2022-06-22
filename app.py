@@ -19,7 +19,7 @@ app = Flask("app")
 def root():
   return "<h1>LaunchCraft Authenication Server</h1>"
 
-@app.post('/redirect')
+@app.route('/redirect', methods=["GET", "POST"])
 def redirect():
   try:
     code = request.form['code']
